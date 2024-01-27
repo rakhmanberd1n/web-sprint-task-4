@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="./script.js"></script>
+</head>
+<body onload="loginInit()">
+    <header class="header">
+        <h1 class="header_title">twitter</h1>
+
+        <div>
+            <a href="#" class="header_link">Tweets</a>
+            <a href="./login.html" class="header_link header_login_link">Login</a>
+            <a href="./register.html" class="header_link header_register_link">Register</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <form class="form">
+            <div>
+                <label>EMAIL:</label><br>
+                <input type="email" class="email">
+            </div>
+            <div>
+                <label>PASSWORD:</label><br>
+                <input type="password" class="password">
+            </div>
+            
+            <button type="button" class="btn">SIGN IN</button>
+        </form>
+
+        <div class="profile_block">
+            <h1 class="profile_block_welcome">Welcome <span class="profile_block_fullName_w"></span></h1> 
+            <div>
+                <p>EMAIL:</p><br>
+                <p class="profile_block_email"></p>
+            </div>
+            <div>
+                <p>FULL NAME:</p><br>
+                <p class="profile_block_fullName"></p>
+            </div>
+            <div>
+                <p>COUNTRY:</p><br>
+                <p class="profile_block_country"></p>
+            </div>
+            <div>
+                <p>BIRTHDATE:</p><br>
+                <p class="profile_block_birthdate"></p>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+</html>

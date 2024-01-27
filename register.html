@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="./script.js"></script>
+</head>
+<body onload="registerInit()">
+
+    <header class="header">
+        <h1 class="header_title">twitter</h1>
+
+        <div>
+            <a href="#" class="header_link">Tweets</a>
+            <a href="./login.html" class="header_link">Login</a>
+            <a href="./register.html" class="header_link">Register</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <form class="form">
+            <div>
+                <label>EMAIL:</label><br>
+                <input type="email" class="email">
+            </div>
+            <div>
+                <label>PASSWORD:</label><br>
+                <input type="password" class="password">
+            </div>
+            <div>
+                <label>FULL NAME:</label><br>
+                <input class="fullName">
+            </div>
+            <div>
+                <label>COUNTRY:</label><br>
+                <select class="country">
+                    <option selected>Kazakhstan</option>
+                    <option>Uzbekistan</option>
+                    <option>Russia</option>
+                </select>
+            </div>
+            <div>
+                <label>BIRTHDATE:</label><br>
+                <input type="date" class="birthdate">
+            </div>
+
+            <button type="button" class="btn">REGISTER</button>
+        </form>
+    </main>
+
+</body>
+</html>
